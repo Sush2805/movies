@@ -31,15 +31,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
-request_channel = environ.get('REQUEST_CHANNEL', '0')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+hFunMy2LGGIzNDc1') #Support group link ( make sure bot is admin )
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002320124321'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002320124321'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002320124321'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002320124321'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002320124321')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002331547787'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002362689479')
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002416059924'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+JwA_RtLZDHs2NTg1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
