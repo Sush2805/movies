@@ -45,7 +45,7 @@ async def pm_search(client, message):
         await auto_filter(client, message)
     else:
         await message.reply_text("<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/learning_bots')]]))
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/+8-eLJ5IVr2s5MjA1')]]))
         
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -58,7 +58,7 @@ async def group_search(client, message):
    # ifJoinedFsub = await is_user_fsub(client,message)
     #if ifJoinedFsub == False:
  #       return
-     if message.chat.id == SUPPORT_GROUP :
+if message.chat.id == SUPPORT_GROUP :
                 if message.text.startswith("/"):
                     return
                 files, n_offset, total = await get_search_results(message.text, offset=0)
