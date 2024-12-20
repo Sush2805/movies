@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/LoveMoviesHub">Movie Time Original</a>」\n\n𝖩𝗈𝗂𝗇 Update Channel➥ 「<a href="https://t.me/HubMoviesLove2">Updates Channel</a>」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇 Backup Channel➥ 「<a href="https://t.me/LoveMoviesHub">Movie Time Original</a>」\n\n𝖩𝗈𝗂𝗇 Update Channel➥ 「<a href="https://t.me/HubMoviesLove2">Updates Channel</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -342,9 +342,9 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 
     SOURCE_TXT = """<b>
 NOTE:
-#- Create Your Bot ◉› :<blockquote><a href="https://youtu.be/mWCsVUOKuoI?si=7qVkoBfDxMCXt-ms">Prime-Filter-Bot</a></blockquote>
+- ☕️ Buy Me A Coffee! Use /plan
 
-developer : @JohnWickPetBot
+Developer : @JohnWickPetBot
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
