@@ -15,31 +15,31 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22631801'))
 API_HASH = environ.get('API_HASH', '53bc20bfbe9eb8326aa4db6be7ee346f')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7293258394:AAHmEjxeauCLCinON-VDP-j1oiGoDoi10vo')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7204215099:AAGpp58b-9yFQ1ATBRhH6jhk6-gOJ0r3Xr8')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5972689430').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/movie4sure") # ADMIN USERNAME
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5972689430 6941618796').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/movie4sure https://t.me/ll_ur_heart_ll") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002354823299'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+oSZUPH8suJA5YThl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002469281545').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushhp:sushhp@sushhp.o9mp8.mongodb.net/?retryWrites=true&w=majority&appName=sushhp")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sushhp")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MovieTimeNew:sushhp@movietime.9nslw.mongodb.net/?retryWrites=true&w=majority&appName=movietime")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MovieTimeNew")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002320124321'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002341027349'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002417386909'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002262776182'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002262776182')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002331547787'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002362689479')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002416059924'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+JwA_RtLZDHs2NTg1') #Support group link ( make sure bot is admin )
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002352395258'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002304949553'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002304949553'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002455024105'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002363934883')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002369506745'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002279822731')
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002427711638'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+NY9XtuOz_7M1Yzk1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -48,8 +48,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+hFunMy2LGGIzNDc1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "757580edbead19efc281ad91c20d9042c1d381bb")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shrinkearn.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "757580edbead19efc281ad91c20d9042c1d381bb")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shrinkearn.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "2bed275ea6cf5e3681e8f9564d712f46b451ab7a")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "757580edbead19efc281ad91c20d9042c1d381bb")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shrinkearn.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
