@@ -686,7 +686,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.answer(script.ALRT_TXT, show_alert=True)
     movie = await get_poster(id, id=True)
     search = movie.get('title')
-    await query.answer('bhai sahab hamare pass nahin Hai')
+    await query.answer('ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴀᴛᴀʙᴀsᴇ, ʀᴇǫᴜᴇsᴛ ᴜsɪɴɢ #ʀᴇǫᴜᴇsᴛ 📌ʀᴇᴀᴅ ᴘɪɴɴᴇᴅ ᴍsɢ')
     files, offset, total_results = await get_search_results(search)
     if files:
         k = (search, files, offset, total_results)
@@ -1454,7 +1454,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     batch_link = f"batchfiles#{message.chat.id}#{message.id}#{message.from_user.id}"
     temp.CHAT[message.from_user.id] = message.chat.id
     settings = await get_settings(message.chat.id , pm_mode=pm_mode)
-    del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs \n- @LoveMoviesHub</b>" if settings["auto_delete"] else ''
+    del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs \n - @LoveMoviesHub</b>" if settings["auto_delete"] else ''
     links = ""
     if settings["link"]:
         btn = []
